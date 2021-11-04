@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 250px;
+  background-color: #ddd;
+  height: 100vh;
+}
+
+header {
+  background: linear-gradient(255deg, #202, #122, #444);
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
+}
+
+header h2{
+  width: 100%;
+  padding-right: 8%;
+  font-size: 40px;
+  text-shadow: 5px 5px 90px;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: -5px 2px 25px 3px;
+}
+
+input::placeholder {
+  padding-left: 20px;
+}
+
+header span {
+  padding: 0px 0px 0px 40px;
+  width: 10%;
+  color: #555;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+header span i{
+   color: #fff;
+   font-size: 30pt;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+ul li {
+  cursor: pointer;
+  padding: 15px 3%;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  line-height: 30px;
+  margin: 0 auto;
+  width: 98%;
+  overflow-x: auto;
+  display: inline-block;
+}
+
+#tarefa {
+  width: 60%;
+}
+ul li:first-child {
+  margin-top: 20px;
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+ul li:hover {
+  background: linear-gradient(255deg, #202, #122, #444);
+  color: #fff;
+}
+
+ul li.checked {
+  background: #888;
+  color: #fff;
+}
+
+ul li span{
+  width: 80%;
+}
+
+ul li i {
+  width: 50px;
+  text-align: center;
+}
+
+.check{  
+  color: #d1d1d1;
+  pointer-events: none;
+}
+
+.done{
+  color: #349223;
+}
+
+.done-span{
+  text-decoration : line-through;
+  pointer-events: none;
+}
+
+.close {  
+  color: #f00;
+}
+
+footer {
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+}
+
+footer .btn-dark-mode {
+  width: 50px;
+  height: 60px;
+  border-radius: 55px;
+  color: #fff;
+  background: linear-gradient(255deg, #202, #333, #444);
+}
+
+/* ---- dark mode ---- */
+.dark-ul li:hover {
+  background: #666;
+  color: #fff;
+}
+
+.dark-ul li {
+  background: #777;
+  color: #fff;
+}
+.dark-ul li:nth-child(odd) {
+  background: #666;
+}
+
+.dark {
+  background: linear-gradient(255deg, #202, #122, #444);
+}
+
+@media (max-width: 800px) {
+  #tarefa {
+    width: 90%;
+  }
+}
