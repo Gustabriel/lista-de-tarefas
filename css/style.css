@@ -57,7 +57,8 @@ header span i{
 }
 
 ul {
-  margin: 0;
+  width: 98%;
+  margin: 0 auto;
   padding: 0;
   flex-wrap: wrap;
 }
@@ -73,8 +74,7 @@ ul li {
   align-items: center;
   flex-wrap: wrap;
   line-height: 30px;
-  margin: 0 auto;
-  width: 98%;
+  width: 100%;
   overflow-x: auto;
   display: inline-block;
 }
@@ -138,7 +138,13 @@ footer .btn-dark-mode {
   height: 60px;
   border-radius: 55px;
   color: #fff;
-  background: linear-gradient(255deg, #202, #333, #444);
+  font-weight: bold;
+  background: linear-gradient(to top, #fff, #fff, #fff, #fff, #000, #000, #000, #000);
+}
+
+footer .btn-dark-mode span {
+  color: #000;
+  font-weight: bold;
 }
 
 /* ---- dark mode ---- */
