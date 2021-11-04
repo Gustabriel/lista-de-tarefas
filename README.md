@@ -4,7 +4,7 @@
 
 
 <h2 align="center"> 📎 Acesse o projeto online em: 
-<a href="https://gustabriel.github.io/lista-de-tarefas/">https://gustabriel.github.io/lista-de-tarefas/</a> </h2>
+<a href="https://gustabriel.github.io/lista-de-tarefas/"> <br /> https://gustabriel.github.io/lista-de-tarefas/</a> </h2>
 
 <details close align="center">
   <summary> 
